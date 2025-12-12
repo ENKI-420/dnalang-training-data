@@ -1,0 +1,26 @@
+{
+  "name": "AURA",
+  "backend": "ollama",
+  "model": "phi3:mini",
+  "api_base": "http://localhost:11434",
+  "port": 8888,
+  "host": "0.0.0.0",
+  "enable_dual": true,
+  "enable_websocket": true,
+  "training_data_path": null,
+  "rag_enabled": true,
+  "ccce": {
+    "initial_phi": 0.78,
+    "initial_lambda": 0.85,
+    "initial_gamma": 0.09,
+    "emit_telemetry": true
+  },
+  "physical_constants": {
+    "LAMBDA_PHI": 2.176435e-8,
+    "THETA_LOCK": 51.843,
+    "PHI_THRESHOLD": 0.7734,
+    "GAMMA_CRITICAL": 0.15,
+    "CHI_PC": 0.869,
+    "GOLDEN_RATIO": 1.618033988749895
+  }
+}
